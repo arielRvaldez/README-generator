@@ -29,11 +29,11 @@ inquirer
     name: 'usage',
 },
 {
-    type: 'list',
+    type: 'rawlist',
     message: 'What License do you want to use?',
     name: 'license',
     choices: [
-        'Apache', 'Academic', 'MIT', 'Mozilla', 'Perl', 'none'
+        'Apache', 'Academic', 'MIT', 'Mozilla', 'Pearl'
     ],
 },
 {
